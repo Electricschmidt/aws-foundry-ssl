@@ -45,6 +45,7 @@ sudo chmod 644 /etc/systemd/system/foundry.service
 sudo systemctl daemon-reload
 sudo systemctl start foundry
 sudo systemctl enable foundry
+sleep 10s
 
 
 # configure foundry aws json file
